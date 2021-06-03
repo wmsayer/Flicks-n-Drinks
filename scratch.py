@@ -1,0 +1,27 @@
+import numpy as np
+a = np.array([[1,2,3,4],[3,3,6,8]]) # "a" is a row vector
+b = np.array([1,3,6,4]).reshape(1, -1) # "b" is a column vector
+c = (a == b)
+d = (a * b)
+e = (a + b)
+f = (a > b)
+print(f'a.shape is {a.shape}')
+print(f'b.shape is {b.shape}')
+print(f'c.shape is {c.shape}. d.shape is {d.shape}. e.shape is {e.shape}. f.shape is {f.shape}.')
+print('----------')
+print('c is ')
+print(c)
+print('----------')
+print('d is ')
+print(d)
+print('----------')
+print('e is ')
+print(e)
+print('----------')
+print('f is ')
+print(f)
+print('----------')
+
+print(np.sum(a))
+print(np.sum(a, axis=0))
+print(np.sum(a, axis=1))

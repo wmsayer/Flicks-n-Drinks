@@ -2,3 +2,4 @@
 .idea
 venv
 __pycache__
+application/static/node_modules

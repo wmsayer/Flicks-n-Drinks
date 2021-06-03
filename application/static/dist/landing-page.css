@@ -1,0 +1,66 @@
+body {
+  width: 1200px;
+  height:600px;
+  background-image: url(https://www.angelsagainstabuse.org/wp-content/uploads/2018/11/blue-moving-flowing-abstract-waves-on-white-background-blurred-smooth-graphic-motion-design-video-animation-1920x1080_vhhueydte__F0000.png);
+  background-repeat: repeat;
+}
+.nav {
+  padding: 2%;
+  cursor: pointer;
+  color: black;
+}
+.nav ul {
+  list-style: none;
+  float: right;
+  font-size: 1.0em;
+  margin: 0;
+  text-transform: uppercase;
+  margin-top: 5px;
+  color: black;
+}
+.nav ul a{
+    display: inline;
+    padding: 0 30px;
+    color: black;
+    letter-spacing: 1px;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 100px 0;
+  flex-wrap: wrap;
+}
+.title {
+  font-size: 7em;
+  text-align: center;
+  width: 100%;
+  font-family: serif;
+  font-weight: bold;
+}
+.title::before {
+  content: "Movies and Cocktail Recommendation";
+  font-size: 15px;
+  letter-spacing: 1.8px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: -5px;
+}
+.main {
+  position: absolute;
+  bottom: 0;
+  margin: 0 2%;
+  width: 95%;
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1.4% 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
