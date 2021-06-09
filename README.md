@@ -8,7 +8,7 @@ My roles in the development of this project:
   * the neural network used here recommends Movie Generes based on a user's Big 5 personality traits
   * a training dataset for this did not previously exist so I manufactured a fake dataset in `DataManipulation/build_NN_training_set` by using the relationship matrix in `DataManipulation/static/MovieTraitMatrix` that I made up
   * once the training set was manufactured, I built and trained a simple neural network in `DataManipulation/BuildModel`
-  * the trained model was then saved and stored in `application/server/MovieTraitModel` to be used on the backend of the webapp for queries
+  * the trained model was then saved and stored in `application/server/MovieTraitModel` to be used on the backend of the webapp
 * assisted in development of the front end
 
 ## Languages and Libraries
